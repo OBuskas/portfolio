@@ -11,8 +11,14 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <Link to="https://github.com/OBuskas" className="text-muted-foreground">© 2024 Lucas Barbosa. {t("footer.rights")}.</Link>
-            <p className="text-sm text-muted-foreground mt-1">{t("footer.built")}</p>
+            <a
+              href="https://github.com/OBuskas"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors flex items-center"
+            >
+              © 2025 Lucas Barbosa.
+            </a>
           </div>
 
           <div className="flex space-x-4">
@@ -24,7 +30,7 @@ export default function Footer() {
               <Mail className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/lucasbarbosadecarvalho/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -33,7 +39,7 @@ export default function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/OBuskas"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"

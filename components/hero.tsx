@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Github, Link, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
 import { useLanguage } from "./language-provider"
 
 export function Hero() {
@@ -51,14 +51,6 @@ export function Hero() {
               onClick={() => window.open("https://www.linkedin.com/in/lucasbarbosadecarvalho/", "_blank", "noopener,noreferrer")}
             >
               <Linkedin className="w-5 h-5" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="icon" 
-              className="border-slate-700 bg-slate-800 hover:bg-slate-700"
-              onClick={() => window.open("https://github.com/OBuskas", "_blank", "noopener,noreferrer")}
-            >
-              <Mail className="w-5 h-5" />
             </Button>
           </div>
 

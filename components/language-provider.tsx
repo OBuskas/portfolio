@@ -24,10 +24,9 @@ const translations = {
     "nav.contact": "Contact",
 
     // Hero
-    "hero.greeting": "Hi, I'm",
     "hero.title": "Front-end Developer",
     "hero.description":
-      "Passionate about creating innovative solutions with modern technologies. Specialized in React, TypeScript, and building scalable web applications.",
+      "Proactive and analytical Front-end Developer with experience in TypeScript, React, and UI/UX, focused on innovative solutions and teamwork.",
     "hero.cta": "Get In Touch",
 
     // Experience
@@ -73,10 +72,9 @@ const translations = {
     "nav.contact": "Contato",
 
     // Hero
-    "hero.greeting": "Olá, eu sou",
     "hero.title": "Desenvolvedor Front-end",
     "hero.description":
-      "Apaixonado por criar soluções inovadoras com tecnologias modernas. Especializado em React, TypeScript e desenvolvimento de aplicações web escaláveis.",
+      "Desenvolvedor Front-end proativo e analítico, com experiência em TypeScript, React e UI/UX, focado em soluções inovadoras e trabalho em equipe.",
     "hero.cta": "Entre em Contato",
 
     // Experience
@@ -122,10 +120,9 @@ const translations = {
     "nav.contact": "Contacto",
 
     // Hero
-    "hero.greeting": "Hola, soy",
     "hero.title": "Desarrollador Front-end",
     "hero.description":
-      "Apasionado por crear soluciones innovadoras con tecnologías modernas. Especializado en React, TypeScript y desarrollo de aplicaciones web escalables.",
+      "Desarrollador Front-end proactivo y analítico, con experiencia en TypeScript, React y UI/UX, enfocado en soluciones innovadoras y trabajo en equipo",
     "hero.cta": "Contactar",
 
     // Experience
