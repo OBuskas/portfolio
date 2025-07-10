@@ -1,7 +1,7 @@
 "use client"
 
 import { useLanguage } from "@/components/language-provider"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Link, Linkedin, Mail } from "lucide-react"
 
 export default function Footer() {
   const { t } = useLanguage()
@@ -11,13 +11,13 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <p className="text-muted-foreground">© 2024 John Doe. {t("footer.rights")}.</p>
+            <Link to="https://github.com/OBuskas" className="text-muted-foreground">© 2024 Lucas Barbosa. {t("footer.rights")}.</Link>
             <p className="text-sm text-muted-foreground mt-1">{t("footer.built")}</p>
           </div>
 
           <div className="flex space-x-4">
             <a
-              href="mailto:john@example.com"
+              href="mailto:lucas.barbosa12397@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >

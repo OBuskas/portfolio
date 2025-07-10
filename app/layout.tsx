@@ -6,25 +6,25 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "John Developer - Full Stack Developer Portfolio",
+  title: "Lucas Barbosa - Front-end Developer Portfolio",
   description:
-    "Passionate full stack developer specializing in React, TypeScript, and modern web technologies. View my projects, experience, and get in touch.",
-  keywords: "full stack developer, react, typescript, next.js, web development, portfolio",
-  authors: [{ name: "John Developer" }],
-  creator: "John Developer",
+    "Passionate front-end developer specializing in React, TypeScript, and modern web technologies. View my projects, experience, and get in touch.",
+  keywords: "front-end developer, react, typescript, next.js, web development, portfolio",
+  authors: [{ name: "Lucas Barbosa" }],
+  creator: "Lucas Barbosa",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://johndeveloper.dev",
-    title: "John Developer - Full Stack Developer Portfolio",
-    description: "Passionate full stack developer specializing in React, TypeScript, and modern web technologies.",
-    siteName: "John Developer Portfolio",
+    url: "https://lucasbarbosa.dev",
+    title: "Lucas Barbosa - Front-end Developer Portfolio",
+    description: "Passionate front-end developer specializing in React, TypeScript, and modern web technologies.",
+    siteName: "Lucas Barbosa Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "John Developer - Full Stack Developer Portfolio",
-    description: "Passionate full stack developer specializing in React, TypeScript, and modern web technologies.",
-    creator: "@johndeveloper",
+    title: "Lucas Barbosa - Front-end Developer Portfolio",
+    description: "Passionate front-end developer specializing in React, TypeScript, and modern web technologies.",
+    creator: "@lucasbarbosa",
   },
   robots: {
     index: true,

@@ -25,14 +25,14 @@ const translations = {
 
     // Hero
     "hero.greeting": "Hi, I'm",
-    "hero.title": "Full Stack Developer",
+    "hero.title": "Front-end Developer",
     "hero.description":
       "Passionate about creating innovative solutions with modern technologies. Specialized in React, TypeScript, and building scalable web applications.",
     "hero.cta": "Get In Touch",
 
     // Experience
     "experience.title": "Experience",
-    "experience.job1.title": "Senior Full Stack Developer",
+    "experience.job1.title": "Senior Front-end Developer",
     "experience.job1.company": "Tech Solutions Inc.",
     "experience.job1.period": "2022 - Present",
     "experience.job1.description":
@@ -74,14 +74,14 @@ const translations = {
 
     // Hero
     "hero.greeting": "Olá, eu sou",
-    "hero.title": "Desenvolvedor Full Stack",
+    "hero.title": "Desenvolvedor Front-end",
     "hero.description":
       "Apaixonado por criar soluções inovadoras com tecnologias modernas. Especializado em React, TypeScript e desenvolvimento de aplicações web escaláveis.",
     "hero.cta": "Entre em Contato",
 
     // Experience
     "experience.title": "Experiência",
-    "experience.job1.title": "Desenvolvedor Full Stack Sênior",
+    "experience.job1.title": "Desenvolvedor Front-end Sênior",
     "experience.job1.company": "Tech Solutions Inc.",
     "experience.job1.period": "2022 - Presente",
     "experience.job1.description":
@@ -123,14 +123,14 @@ const translations = {
 
     // Hero
     "hero.greeting": "Hola, soy",
-    "hero.title": "Desarrollador Full Stack",
+    "hero.title": "Desarrollador Front-end",
     "hero.description":
       "Apasionado por crear soluciones innovadoras con tecnologías modernas. Especializado en React, TypeScript y desarrollo de aplicaciones web escalables.",
     "hero.cta": "Contactar",
 
     // Experience
     "experience.title": "Experiencia",
-    "experience.job1.title": "Desarrollador Full Stack Senior",
+    "experience.job1.title": "Desarrollador Front-end Senior",
     "experience.job1.company": "Tech Solutions Inc.",
     "experience.job1.period": "2022 - Presente",
     "experience.job1.description":

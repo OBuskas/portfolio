@@ -109,25 +109,25 @@ export function Contact() {
                 <h3 className="text-xl font-semibold text-slate-100 mb-4">Connect With Me</h3>
                 <div className="space-y-4">
                   <a
-                    href="mailto:john@example.com"
+                    href="mailto:lucas.barbosa12397@gmail.com"
                     className="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition-colors"
                   >
                     <Mail className="w-5 h-5" />
-                    <span>john@example.com</span>
+                    <span>lucas.barbosa12397@gmail.com</span>
                   </a>
                   <a
                     href="https://github.com"
                     className="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition-colors"
                   >
                     <Github className="w-5 h-5" />
-                    <span>github.com/johndeveloper</span>
+                    <span>github.com/lucasbarbosa</span>
                   </a>
                   <a
                     href="https://linkedin.com"
                     className="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition-colors"
                   >
                     <Linkedin className="w-5 h-5" />
-                    <span>linkedin.com/in/johndeveloper</span>
+                    <span>linkedin.com/in/lucasbarbosa</span>
                   </a>
                 </div>
               </CardContent>

@@ -32,7 +32,7 @@ export function Education() {
     },
     {
       type: "course",
-      title: "Full Stack Web Development",
+      title: "Front-end Web Development",
       institution: "FreeCodeCamp",
       period: "2021",
       description: "Comprehensive course covering frontend and backend technologies.",
