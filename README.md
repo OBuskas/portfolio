@@ -105,9 +105,8 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 📬 Contato
 
-- LinkedIn: [Seu Perfil](https://www.linkedin.com/in/lucasbarbosadecarvalho/)
-- GitHub: [@seu-usuario](https://github.com/OBuskas)
-- E-mail: seu.email@exemplo.com
+- LinkedIn: [Lucas Barbosa](https://www.linkedin.com/in/lucasbarbosadecarvalho/)
+- GitHub: [OBuskas](https://github.com/OBuskas)
 
 ---
 
