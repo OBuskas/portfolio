@@ -15,7 +15,7 @@ export function Projects() {
       description:
         "Front-end of a games library and a checkout form.",
       image: "/igp-logo.png?height=200&width=300",
-      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Stripe"],
+      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui", "Stripe"],
       github: "https://github.com/OBuskas/indie-game-pass-site",
       demo: "https://site-preview-0.indiegamepass.men/",
     },

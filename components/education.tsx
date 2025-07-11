@@ -11,31 +11,24 @@ export function Education() {
   const education = [
     {
       type: "degree",
-      title: "Bachelor of Science in Computer Science",
-      institution: "University of Technology",
-      period: "2015 - 2019",
-      description: "Focused on software engineering, algorithms, and data structures.",
+      title: t("education.degree1.title"),
+      institution: t("education.degree1.institution"),
+      period: t("education.degree1.period"),
+      description: t("education.degree1.description"),
     },
     {
       type: "certification",
-      title: "AWS Certified Solutions Architect",
-      institution: "Amazon Web Services",
-      period: "2023",
-      description: "Professional certification for designing distributed systems on AWS.",
+      title: t("education.cert1.title"),
+      institution: t("education.cert1.institution"),
+      period: t("education.cert1.period"),
+      description: t("education.cert1.description"),
     },
     {
       type: "certification",
-      title: "React Developer Certification",
-      institution: "Meta",
-      period: "2022",
-      description: "Advanced React concepts, hooks, and modern development practices.",
-    },
-    {
-      type: "course",
-      title: "Front-end Web Development",
-      institution: "FreeCodeCamp",
-      period: "2021",
-      description: "Comprehensive course covering frontend and backend technologies.",
+      title: t("education.cert2.title"),
+      institution: t("education.cert2.institution"),
+      period: t("education.cert2.period"),
+      description: t("education.cert2.description"),
     },
   ]
 
@@ -50,8 +43,8 @@ export function Education() {
           {education.map((item, index) => (
             <Card key={index} className="bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-colors">
               <CardHeader>
-                <div className="flex items-start justify-between">
-                  <div className="flex items-start space-x-3">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex items-start gap-3">
                     <div className="mt-1">
                       {item.type === "degree" ? (
                         <GraduationCap className="w-5 h-5 text-blue-400" />
@@ -60,15 +53,18 @@ export function Education() {
                       )}
                     </div>
                     <div>
-                      <CardTitle className="text-lg text-slate-100 mb-1">{item.title}</CardTitle>
-                      <p className="text-blue-400 font-semibold">{item.institution}</p>
+                      <CardTitle className="text-lg text-slate-100">{item.title}</CardTitle>
                     </div>
                   </div>
-                  <Badge variant="outline" className="border-slate-600 text-slate-300 cursor-default">
+                  <Badge variant="outline" className="border-slate-600 text-slate-300 cursor-default whitespace-nowrap">
                     {item.period}
                   </Badge>
                 </div>
+                <div className="p-0 m-0">
+                  <p className="text-blue-400 font-semibold">{item.institution}</p>
+                </div>
               </CardHeader>
+
               <CardContent>
                 <p className="text-slate-300">{item.description}</p>
               </CardContent>

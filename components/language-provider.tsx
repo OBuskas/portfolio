@@ -26,7 +26,7 @@ const translations = {
     // Hero
     "hero.title": "Front-end Developer",
     "hero.description":
-      "Proactive and analytical Front-end Developer with experience in TypeScript, React, and UI/UX, focused on innovative solutions and teamwork.",
+      "Brazilian Front-end developer, 27 years old, focused on React. \nAnalytical, proactive, and communicative profile. \nI currently work at Transfero, within the startup Dinx, developing a BackOffice and a website for the onboarding of a children's financial education platform. I use Next.js, TypeScript, Tailwind, Shadcn/ui, and Ant Design. \nI began my career in 2023 at PUAH Consultoria, working on custom projects using JavaScript, TypeScript, and React.",
     "hero.cta": "Get In Touch",
 
     // Experience
@@ -71,6 +71,20 @@ const translations = {
 
     // Education
     "education.title": "Education & Certifications",
+    "education.degree1.title": "Systems Analysis and Development - Associate Degree",
+    "education.degree1.institution": "FIAP - Faculdade de Informática e Administração Paulista",
+    "education.degree1.period": "July 2023 - July 2025",
+    "education.degree1.description": "The Associate Degree in Systems Analysis and Development prepares professionals to work in software development, covering backend, frontend, databases, mobile applications (Android/iOS), and technologies such as AI, IoT, and DevOps. The program uses agile methodologies and practical projects in partnership with companies like Oracle, Microsoft, and AWS, and offers professional certifications each semester.",
+
+    "education.cert1.title": "ONE - Front-end track",
+    "education.cert1.institution": "Oracle",
+    "education.cert1.period": "2023",
+    "education.cert1.description": "HTML, CSS, JavaScript, and React.js - 560 hours.",
+
+    "education.cert2.title": "Web Development 2020",
+    "education.cert2.institution": "Estudonauta platform",
+    "education.cert2.period": "2022",
+    "education.cert2.description": "HTML5 + CSS3: Modules 1 to 4 - 160 hours.",
 
     // Contact
     "contact.title": "Get In Touch",
@@ -96,7 +110,7 @@ const translations = {
     // Hero
     "hero.title": "Desenvolvedor Front-end",
     "hero.description":
-      "Desenvolvedor Front-end proativo e analítico, com experiência em TypeScript, React e UI/UX, focado em soluções inovadoras e trabalho em equipe.",
+      "Desenvolvedor Front-end brasileiro, 27 anos, com foco em React. \nPerfil analítico, proativo e comunicativo. \nAtuo na Transfero, dentro da startup Dinx, desenvolvendo um BackOffice e um site para contratação de uma plataforma de educação financeira infantil. Utilizo Next.js, TypeScript, Tailwind, Shadcn/ui e Ant Design. \nIniciei minha carreira em 2023 na PUAH Consultoria, com projetos personalizados em JavaScript, TypeScript e React.",
     "hero.cta": "Entre em Contato",
 
     // Experience
@@ -142,6 +156,20 @@ const translations = {
 
     // Education
     "education.title": "Educação e Certificações",
+    "education.degree1.title": "Análise e Desenvolvimento de Sistemas - Tecnólogo",
+    "education.degree1.institution": "FIAP - Faculdade de Informática e Administração Paulista",
+    "education.degree1.period": "Julho 2023 - Julho 2025",
+    "education.degree1.description": "Graduação em análise e desenvolvimento de sistemas prepara profissionais para atuar no desenvolvimento de software, abrangendo desde backend e frontend até bancos de dados, aplicativos móveis (Android/iOS) e tecnologias como IA, IoT e DevOps. Com metodologias ágeis e projetos práticos em parceria com empresas como Oracle, Microsoft e AWS e oferece certificações profissionais por semestre",
+
+    "education.cert1.title": "ONE - Trilha Front-end",
+    "education.cert1.institution": "Oracle",
+    "education.cert1.period": "2023",
+    "education.cert1.description": "HTML, CSS, JavaScript, and React.js - 560 horas.",
+
+    "education.cert2.title": "Desenvolvimento Web 2020",
+    "education.cert2.institution": "Plataforma Estudonauta",
+    "education.cert2.period": "2022",
+    "education.cert2.description": "HTML5 + CSS3: Modulos 1 a 4 - 160 horas.",
 
     // Contact
     "contact.title": "Entre em Contato",
@@ -167,7 +195,7 @@ const translations = {
     // Hero
     "hero.title": "Desarrollador Front-end",
     "hero.description":
-      "Desarrollador Front-end proactivo y analítico, con experiencia en TypeScript, React y UI/UX, enfocado en soluciones innovadoras y trabajo en equipo",
+      "Desarrollador Front-end brasileño, de 27 años, enfocado en React. \nPerfil analítico, proactivo y comunicativo. \nActualmente trabajo en Transfero, dentro de la startup Dinx, desarrollando un BackOffice y un sitio web para la contratación de una plataforma de educación financiera infantil. Utilizo Next.js, TypeScript, Tailwind, Shadcn/ui y Ant Design. \nComencé mi carrera en 2023 en PUAH Consultoria, con proyectos personalizados en JavaScript, TypeScript y React.",
     "hero.cta": "Contactar",
 
     // Experience
@@ -212,6 +240,20 @@ const translations = {
 
     // Education
     "education.title": "Educación y Certificaciones",
+    "education.degree1.title": "Análisis y Desarrollo de Sistemas - Tecnicatura / Tecnólogo",
+    "education.degree1.institution": "FIAP - Faculdade de Informática e Administração Paulista",
+    "education.degree1.period": "Julio 2023 - Julio 2025",
+    "education.degree1.description": "La Tecnicatura en Análisis y Desarrollo de Sistemas forma profesionales para trabajar en el desarrollo de software, abarcando backend, frontend, bases de datos, aplicaciones móviles (Android/iOS) y tecnologías como IA, IoT y DevOps. El programa utiliza metodologías ágiles y proyectos prácticos en colaboración con empresas como Oracle, Microsoft y AWS, y ofrece certificaciones profesionales por semestre.",
+
+    "education.cert1.title": "ONE - Ruta Front-end",
+    "education.cert1.institution": "Oracle",
+    "education.cert1.period": "2023",
+    "education.cert1.description": "HTML, CSS, JavaScript, and React.js - 560 horas.",
+
+    "education.cert2.title": "Desarrollo Web 2020",
+    "education.cert2.institution": "Plataforma Estudonauta",
+    "education.cert2.period": "2022",
+    "education.cert2.description": "HTML5 + CSS3: Módulos del 1 al 4 - 160 horas.",
 
     // Contact
     "contact.title": "Contactar",
