@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Code, Users } from "lucide-react"
+import { Code, Languages, Users } from "lucide-react"
 import { useLanguage } from "./language-provider"
 
 export function Skills() {
@@ -26,15 +26,18 @@ export function Skills() {
     "Node.js"
   ]
 
+  const languageSkills = [
+    { key: "Portuguese", name: t("skills.languageSkills.portuguese") },
+    { key: "Spanish", name: t("skills.languageSkills.spanish") },
+    { key: "English", name: t("skills.languageSkills.english") },
+  ]
+
   const softSkills = [
-    "Proactive",
-    "Analytical",
-    "Collaborative",
-    "Problem Solving",
-    "Communication",
-    "Leadership",
-    "Adaptability",
-    "Time Management",
+    { key: "proactive", name: t("skills.soft.proactive") },
+    { key: "analytical", name: t("skills.soft.analytical") },
+    { key: "sociability", name: t("skills.soft.sociability") },
+    { key: "agile_methodology", name: t("skills.soft.agile_methodology") },
+    { key: "time_management", name: t("skills.soft.time_management") },
   ]
 
   return (
@@ -44,7 +47,7 @@ export function Skills() {
           {t("skills.title")}
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <Card className="bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-colors">
             <CardHeader>
               <CardTitle className="flex items-center text-slate-100">
@@ -66,6 +69,24 @@ export function Skills() {
           <Card className="bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-colors">
             <CardHeader>
               <CardTitle className="flex items-center text-slate-100">
+                <Languages className="w-5 h-5 mr-2 text-indigo-400" />
+                {t("skills.languageSkills")}
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="flex flex-wrap gap-2">
+                {languageSkills.map((skill) => (
+                  <Badge key={skill.key} className="bg-indigo-500/20 text-indigo-300 hover:bg-indigo-500/30 border-indigo-500/30 cursor-default">
+                    {skill.name}
+                  </Badge>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-colors">
+            <CardHeader>
+              <CardTitle className="flex items-center text-slate-100">
                 <Users className="w-5 h-5 mr-2 text-purple-400" />
                 {t("skills.soft")}
               </CardTitle>
@@ -74,10 +95,10 @@ export function Skills() {
               <div className="flex flex-wrap gap-2">
                 {softSkills.map((skill) => (
                   <Badge
-                    key={skill}
+                    key={skill.key}
                     className="bg-purple-500/20 text-purple-300 hover:bg-purple-500/30 border-purple-500/30 cursor-default"
                   >
-                    {skill}
+                    {skill.name}
                   </Badge>
                 ))}
               </div>

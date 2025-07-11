@@ -53,7 +53,16 @@ const translations = {
     // Skills
     "skills.title": "Skills",
     "skills.hard": "Hard Skills",
+    "skills.languageSkills": "Language Skills",
+    "skills.languageSkills.portuguese": "Portuguese: Native",
+    "skills.languageSkills.spanish": "Spanish: B2",
+    "skills.languageSkills.english": "English: B2", 
     "skills.soft": "Soft Skills",
+    "skills.soft.proactive": "Proactive",
+    "skills.soft.analytical": "Analytical",
+    "skills.soft.sociability": "High Sociability",
+    "skills.soft.agile_methodology": "Agile Methodology",
+    "skills.soft.time_management": "Time Management",
 
     // Projects
     "projects.title": "Featured Projects",
@@ -114,7 +123,17 @@ const translations = {
     // Skills
     "skills.title": "Habilidades",
     "skills.hard": "Habilidades Técnicas",
+    "skills.languageSkills": "Habilidades com Idiomas",
+    "skills.languageSkills.portuguese": "Português: Nativo",
+    "skills.languageSkills.spanish": "Espanhol: B2",
+    "skills.languageSkills.english": "Inglês: B2", 
     "skills.soft": "Habilidades Interpessoais",
+    "skills.soft.proactive": "Proativo",
+    "skills.soft.analytical": "Analítico",
+    "skills.soft.sociability": "Altamente sociável",
+    "skills.soft.agile_methodology": "Metodologias ágeis",
+    "skills.soft.time_management": "Gestão de tempo",
+    
 
     // Projects
     "projects.title": "Projetos em Destaque",
@@ -175,7 +194,16 @@ const translations = {
     // Skills
     "skills.title": "Habilidades",
     "skills.hard": "Habilidades Técnicas",
-    "skills.soft": "Habilidades Blandas",
+    "skills.languageSkills": "Habilidades con Idiomas",
+    "skills.languageSkills.portuguese": "Portugués: Nativo",
+    "skills.languageSkills.spanish": "Español: B2",
+    "skills.languageSkills.english": "Inglés: B2", 
+    "skills.soft": "Habilidades Personales",
+    "skills.soft.proactive": "Proactivo",
+    "skills.soft.analytical": "Analítico",
+    "skills.soft.sociability": "Altamente sociable",
+    "skills.soft.agile_methodology": "Metodologías agiles",
+    "skills.soft.time_management": "Gestión del tiempo",
 
     // Projects
     "projects.title": "Proyectos Destacados",
