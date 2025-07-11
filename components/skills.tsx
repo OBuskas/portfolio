@@ -42,7 +42,7 @@ export function Skills() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          <Card className="bg-slate-900/50 border-slate-800">
+          <Card className="bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-colors">
             <CardHeader>
               <CardTitle className="flex items-center text-slate-100">
                 <Code className="w-5 h-5 mr-2 text-blue-400" />
@@ -52,7 +52,7 @@ export function Skills() {
             <CardContent>
               <div className="flex flex-wrap gap-2">
                 {hardSkills.map((skill) => (
-                  <Badge key={skill} className="bg-blue-500/20 text-blue-300 hover:bg-blue-500/30 border-blue-500/30">
+                  <Badge key={skill} className="bg-blue-500/20 text-blue-300 hover:bg-blue-500/30 border-blue-500/30 cursor-default">
                     {skill}
                   </Badge>
                 ))}
@@ -60,7 +60,7 @@ export function Skills() {
             </CardContent>
           </Card>
 
-          <Card className="bg-slate-900/50 border-slate-800">
+          <Card className="bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-colors">
             <CardHeader>
               <CardTitle className="flex items-center text-slate-100">
                 <Users className="w-5 h-5 mr-2 text-purple-400" />
@@ -72,7 +72,7 @@ export function Skills() {
                 {softSkills.map((skill) => (
                   <Badge
                     key={skill}
-                    className="bg-purple-500/20 text-purple-300 hover:bg-purple-500/30 border-purple-500/30"
+                    className="bg-purple-500/20 text-purple-300 hover:bg-purple-500/30 border-purple-500/30 cursor-default"
                   >
                     {skill}
                   </Badge>

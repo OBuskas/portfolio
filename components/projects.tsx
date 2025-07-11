@@ -11,7 +11,7 @@ export function Projects() {
 
   const projects = [
     {
-      name: "E-Commerce Platform",
+      name: "https://site-preview-0.indiegamepass.men/",
       description:
         "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
       image: "/placeholder.svg?height=200&width=300",
@@ -67,7 +67,7 @@ export function Projects() {
 
                 <div className="flex flex-wrap gap-1 mb-4">
                   {project.technologies.map((tech) => (
-                    <Badge key={tech} variant="secondary" className="bg-slate-800 text-slate-300 text-xs">
+                    <Badge key={tech} variant="secondary" className="bg-slate-800 text-slate-300 text-xs cursor-default">
                       {tech}
                     </Badge>
                   ))}

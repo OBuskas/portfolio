@@ -69,7 +69,7 @@ export function Experience() {
                 <p className="text-slate-300 mb-4">{exp.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {exp.technologies.map((tech) => (
-                    <Badge key={tech} variant="secondary" className="bg-slate-800 text-slate-300 hover:bg-slate-700">
+                    <Badge key={tech} variant="secondary" className="bg-slate-800 text-slate-300 hover:bg-slate-700 cursor-default">
                       {tech}
                     </Badge>
                   ))}

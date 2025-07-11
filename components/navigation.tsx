@@ -35,7 +35,7 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 w-full z-50 transition-all duration-300  ${
         isScrolled ? "bg-slate-950/95 backdrop-blur-sm border-b border-slate-800" : "bg-transparent"
       }`}
     >
@@ -57,22 +57,22 @@ export function Navigation() {
               </button>
             ))}
 
-            <DropdownMenu>
+            <DropdownMenu modal={false}>
               <DropdownMenuTrigger asChild>
-                <Button variant="outline" size="sm" className="border-slate-700 bg-slate-800 hover:bg-slate-700">
+                <Button variant="outline" size="sm" className="border-slate-700 bg-slate-800 bg-gradient-to-r from-blue-400 to-purple-400 hover:bg-slate-700">
                   <Globe className="w-4 h-4 mr-2" />
                   {language.toUpperCase()}
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-slate-800 border-slate-700">
-                <DropdownMenuItem onClick={() => setLanguage("en")} className="hover:bg-slate-700">
-                  English
+                <DropdownMenuItem className="hover:bg-slate-700">
+                  <span onClick={() => setLanguage("en")} className="cursor-pointer">English</span>
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setLanguage("pt")} className="hover:bg-slate-700">
-                  Português
+                <DropdownMenuItem className="hover:bg-slate-700">
+                  <span onClick={() => setLanguage("pt")} className="cursor-pointer">Português</span>
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setLanguage("es")} className="hover:bg-slate-700">
-                  Español
+                <DropdownMenuItem className="hover:bg-slate-700">
+                  <span onClick={() => setLanguage("es")} className="cursor-pointer">Español</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
@@ -80,16 +80,22 @@ export function Navigation() {
 
           {/* Mobile Navigation */}
           <div className="md:hidden flex items-center space-x-4">
-            <DropdownMenu>
+            <DropdownMenu modal={false}>
               <DropdownMenuTrigger asChild>
                 <Button variant="outline" size="sm" className="border-slate-700 bg-slate-800">
                   <Globe className="w-4 h-4" />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-slate-800 border-slate-700">
-                <DropdownMenuItem onClick={() => setLanguage("en")}>English</DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setLanguage("pt")}>Português</DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setLanguage("es")}>Español</DropdownMenuItem>
+                <DropdownMenuItem>
+                  <span onClick={() => setLanguage("en")} className="cursor-pointer block w-full">English</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <span onClick={() => setLanguage("pt")} className="cursor-pointer block w-full">Português</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <span onClick={() => setLanguage("es")} className="cursor-pointer block w-full">Español</span>
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 

@@ -64,7 +64,7 @@ export function Education() {
                       <p className="text-blue-400 font-semibold">{item.institution}</p>
                     </div>
                   </div>
-                  <Badge variant="outline" className="border-slate-600 text-slate-300">
+                  <Badge variant="outline" className="border-slate-600 text-slate-300 cursor-default">
                     {item.period}
                   </Badge>
                 </div>

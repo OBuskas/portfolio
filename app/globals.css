@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Garante que a barra de rolagem esteja sempre visível */
+html {
+  overflow-y: scroll;
+}
+
 @layer base {
   :root {
     --background: 222.2 84% 4.9%;
