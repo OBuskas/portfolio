@@ -9,18 +9,21 @@ export function Skills() {
   const { t } = useLanguage()
 
   const hardSkills = [
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Python",
-    "PostgreSQL",
-    "MongoDB",
-    "AWS",
-    "Docker",
-    "Git",
-    "Figma",
-    "Tailwind CSS",
+    "JavaScript", 
+    "TypeScript", 
+    "React.js", 
+    "Next.js", 
+    "Tailwind", 
+    "Shadcn/ui", 
+    "Ant Design", 
+    "npm", 
+    "Yarn", 
+    "ESLint", 
+    "Vite", 
+    "Vercel", 
+    "Git", 
+    "Github", 
+    "Node.js"
   ]
 
   const softSkills = [

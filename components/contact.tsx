@@ -109,6 +109,7 @@ export function Contact() {
                 <h3 className="text-xl font-semibold text-slate-100 mb-4">Connect With Me</h3>
                 <div className="space-y-4">
                   <a
+                    target="_blank"
                     href="mailto:lucas.barbosa12397@gmail.com"
                     className="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition-colors"
                   >
@@ -116,14 +117,16 @@ export function Contact() {
                     <span>lucas.barbosa12397@gmail.com</span>
                   </a>
                   <a
-                    href="https://github.com"
+                    target="_blank"
+                    href="https://github.com/OBuskas"
                     className="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition-colors"
                   >
                     <Github className="w-5 h-5" />
-                    <span>github.com/lucasbarbosa</span>
+                    <span>github.com/OBuskas</span>
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/lucasbarbosadecarvalho/"
                     className="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition-colors"
                   >
                     <Linkedin className="w-5 h-5" />

@@ -11,13 +11,13 @@ export function Projects() {
 
   const projects = [
     {
-      name: "https://site-preview-0.indiegamepass.men/",
+      name: "Indie Game Pass",
       description:
-        "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+        "Front-end of a games library and a checkout form.",
+      image: "/igp-logo.png?height=200&width=300",
+      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Stripe"],
+      github: "https://github.com/OBuskas/indie-game-pass-site",
+      demo: "https://site-preview-0.indiegamepass.men/",
     },
     {
       name: "Task Management App",
@@ -78,6 +78,7 @@ export function Projects() {
                     variant="outline"
                     size="sm"
                     className="border-slate-700 bg-slate-800 hover:bg-slate-700 flex-1"
+                    onClick={() => window.open(project.github, '_blank', 'noopener,noreferrer')}
                   >
                     <Github className="w-4 h-4 mr-2" />
                     {t("projects.viewCode")}
@@ -86,6 +87,7 @@ export function Projects() {
                     variant="outline"
                     size="sm"
                     className="border-slate-700 bg-slate-800 hover:bg-slate-700 flex-1"
+                    onClick={() => window.open(project.demo, '_blank', 'noopener,noreferrer')}
                   >
                     <ExternalLink className="w-4 h-4 mr-2" />
                     {t("projects.liveDemo")}
