@@ -12,8 +12,7 @@ export function Projects() {
   const projects = [
     {
       name: "Indie Game Pass",
-      description:
-        "Front-end of a games library and a checkout form.",
+      description: t("projects.indieGamePass.description"),
       image: "/igp-logo.png?height=200&width=300",
       technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui", "Stripe"],
       github: "https://github.com/OBuskas/indie-game-pass-site",
@@ -21,8 +20,7 @@ export function Projects() {
     },
     {
       name: "Task Management App",
-      description:
-        "Collaborative project management tool with real-time updates, team collaboration, and progress tracking.",
+      description: t("projects.taskManagementApp.description"),
       image: "/placeholder.svg?height=200&width=300",
       technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Material-UI"],
       github: "https://github.com",
@@ -30,7 +28,7 @@ export function Projects() {
     },
     {
       name: "Weather Dashboard",
-      description: "Interactive weather application with location-based forecasts, charts, and weather alerts.",
+      description: t("projects.weatherDashboard.description"),
       image: "/placeholder.svg?height=200&width=300",
       technologies: ["React", "TypeScript", "Chart.js", "Weather API", "SASS"],
       github: "https://github.com",

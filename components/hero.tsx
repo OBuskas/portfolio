@@ -33,7 +33,7 @@ export function Hero() {
             <h2 className="text-2xl md:text-3xl text-slate-300 font-semibold">{t("hero.title")}</h2>
           </div>
 
-          <p className="text-slate-400 text-sm md:text-base max-w-2xl mx-auto leading-relaxed whitespace-pre-line">
+          <p className="text-slate-400 text-sm md:text-lg max-w-2xl mx-auto leading-relaxed whitespace-pre-line">
             {t("hero.description")}
           </p>
 

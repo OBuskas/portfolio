@@ -66,6 +66,9 @@ const translations = {
 
     // Projects
     "projects.title": "Featured Projects",
+    "projects.indieGamePass.description": "Indie Game Pass is a subscription platform that offers monthly access to exclusive indie games, allowing users to take part in the development process through voting and the IGP community.",
+    "projects.taskManagementApp.description": "Test English",
+    "projects.weatherDashboard.description": "Test English",
     "projects.viewCode": "View Code",
     "projects.liveDemo": "Live Demo",
 
@@ -148,9 +151,11 @@ const translations = {
     "skills.soft.agile_methodology": "Metodologias ágeis",
     "skills.soft.time_management": "Gestão de tempo",
     
-
     // Projects
     "projects.title": "Projetos em Destaque",
+    "projects.indieGamePass.description": "O Indie Game Pass é uma plataforma de assinatura que dá acesso mensal a jogos indie exclusivos, permitindo aos usuários participar do desenvolvimento por meio de votações e da comunidade.",
+    "projects.taskManagementApp.description": "Teste português",
+    "projects.weatherDashboard.description": "Teste português",
     "projects.viewCode": "Ver Código",
     "projects.liveDemo": "Demo ao Vivo",
 
@@ -235,6 +240,9 @@ const translations = {
 
     // Projects
     "projects.title": "Proyectos Destacados",
+    "projects.indieGamePass.description": "Indie Game Pass es una plataforma de suscripción que ofrece acceso mensual a juegos indie exclusivos, permitiendo a los usuarios participar en el desarrollo a través de votaciones y la comunidad de IGP.",
+    "projects.taskManagementApp.description": "Teste español",
+    "projects.weatherDashboard.description": "Teste español",
     "projects.viewCode": "Ver Código",
     "projects.liveDemo": "Demo en Vivo",
 
