@@ -26,7 +26,7 @@ const translations = {
     // Hero
     "hero.title": "Front-end Developer",
     "hero.description":
-      "Brazilian Front-end developer, 27 years old, focused on React. Analytical, proactive, and communicative profile. \nI currently work at Transfero, within the startup Dinx, developing a BackOffice and a website for the onboarding of a children's financial education platform. I use Next.js, TypeScript, Tailwind, Shadcn/ui, and Ant Design. \nI began my career in 2023 at PUAH Consultoria, working on custom projects using JavaScript, TypeScript, and React.",
+      "Brazilian Front-end developer, 27 years old, focused on React. Analytical, proactive, and communicative profile. I currently work at Transfero, within the startup Dinx, developing a BackOffice and a website for the onboarding of a children's financial education platform. I use Next.js, TypeScript, Tailwind, Shadcn/ui, and Ant Design. I began my career in 2023 at PUAH Consultoria, working on custom projects using JavaScript, TypeScript, and React.",
     "hero.cta": "Get In Touch",
 
     // Experience
@@ -113,7 +113,7 @@ const translations = {
     // Hero
     "hero.title": "Desenvolvedor Front-end",
     "hero.description":
-      "Desenvolvedor Front-end brasileiro, 27 anos, com foco em React. Perfil analítico, proativo e comunicativo. \nAtuo na Transfero, dentro da startup Dinx, desenvolvendo um BackOffice e um site para contratação de uma plataforma de educação financeira infantil. Utilizo Next.js, TypeScript, Tailwind, Shadcn/ui e Ant Design. \nIniciei minha carreira em 2023 na PUAH Consultoria, com projetos personalizados em JavaScript, TypeScript e React.",
+      "Desenvolvedor Front-end brasileiro, 27 anos, com foco em React. Perfil analítico, proativo e comunicativo. Atuo na Transfero, dentro da startup Dinx, desenvolvendo um BackOffice e um site para contratação de uma plataforma de educação financeira infantil. Utilizo Next.js, TypeScript, Tailwind, Shadcn/ui e Ant Design. Iniciei minha carreira em 2023 na PUAH Consultoria, com projetos personalizados em JavaScript, TypeScript e React.",
     "hero.cta": "Entre em Contato",
 
     // Experience
@@ -200,7 +200,7 @@ const translations = {
     // Hero
     "hero.title": "Desarrollador Front-end",
     "hero.description":
-      "Desarrollador Front-end brasileño, de 27 años, enfocado en React. Perfil analítico, proactivo y comunicativo. \nActualmente trabajo en Transfero, dentro de la startup Dinx, desarrollando un BackOffice y un sitio web para la contratación de una plataforma de educación financiera infantil. Utilizo Next.js, TypeScript, Tailwind, Shadcn/ui y Ant Design. \nComencé mi carrera en 2023 en PUAH Consultoria, con proyectos personalizados en JavaScript, TypeScript y React.",
+      "Desarrollador Front-end brasileño, de 27 años, enfocado en React. Perfil analítico, proactivo y comunicativo. Actualmente trabajo en Transfero, dentro de la startup Dinx, desarrollando un BackOffice y un sitio web para la contratación de una plataforma de educación financiera infantil. Utilizo Next.js, TypeScript, Tailwind, Shadcn/ui y Ant Design. Comencé mi carrera en 2023 en PUAH Consultoria, con proyectos personalizados en JavaScript, TypeScript y React.",
     "hero.cta": "Contactar",
 
     // Experience

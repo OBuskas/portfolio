@@ -8,11 +8,6 @@ import { useLanguage } from "./language-provider"
 export function Hero() {
   const { t } = useLanguage()
 
-  const scrollToContact = () => {
-    const element = document.querySelector("#contact")
-    element?.scrollIntoView({ behavior: "smooth" })
-  }
-
   return (
     <section id="about" className="min-h-screen flex items-center justify-center pt-20 px-4">
       <div className="container mx-auto max-w-4xl text-center">
@@ -33,7 +28,7 @@ export function Hero() {
             <h2 className="text-2xl md:text-3xl text-slate-300 font-semibold">{t("hero.title")}</h2>
           </div>
 
-          <p className="text-slate-400 text-sm md:text-lg max-w-2xl mx-auto leading-relaxed whitespace-pre-line">
+          <p className="text-slate-400 text-sm md:text-lg text-balance max-w-2xl mx-auto leading-relaxed whitespace-pre-line">
             {t("hero.description")}
           </p>
 
@@ -57,10 +52,10 @@ export function Hero() {
           </div>
 
           <Button
-            onClick={scrollToContact}
+            asChild
             className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 text-lg"
           >
-            {t("hero.cta")}
+            <a href="#contact">{t("hero.cta")}</a>
           </Button>
         </div>
       </div>
