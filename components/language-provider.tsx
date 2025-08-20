@@ -96,6 +96,9 @@ const translations = {
     "contact.email": "Email",
     "contact.message": "Message",
     "contact.send": "Send Message",
+    "contact.connect": "Connect with me",
+    "contact.let": "Let's build something amazing",
+    "contact.fullDescription": "I'm always excited to work on innovative projects and collaborate with talented teams. Whether you have a project in mind or just want to connect, feel free to reach out!",
 
     // Chat
     "chat.title": "Chat Assistant",
@@ -183,6 +186,10 @@ const translations = {
     "contact.email": "Email",
     "contact.message": "Mensagem",
     "contact.send": "Enviar Mensagem",
+    "contact.connect": "Conecte-se comigo",
+    "contact.let": "Vamos Construir Algo Incrível",
+    "contact.fullDescription": "Adoro trabalhar em projetos inovadores e fazer parte de equipes talentosas. Se você tem algum projeto em mente ou só quer conversar, entre em contato!",
+
 
     // Chat
     "chat.title": "Assistente de Chat",
@@ -270,6 +277,9 @@ const translations = {
     "contact.email": "Email",
     "contact.message": "Mensaje",
     "contact.send": "Enviar Mensaje",
+    "contact.connect": "Conéctate conmigo",
+    "contact.let": "Construyamos Algo Increíble",
+    "contact.fullDescription": "Me encanta trabajar en proyectos innovadores y formar parte de equipos talentosos. Si tenés algún proyecto en mente o simplemente querés charlar, escribime!",
 
     // Chat
     "chat.title": "Asistente de Chat",

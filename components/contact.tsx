@@ -47,7 +47,7 @@ export function Contact() {
         <div className="grid md:grid-cols-2 gap-8">
           <Card className="bg-slate-900/50 border-slate-800">
             <CardHeader>
-              <CardTitle className="text-slate-100">Send Message</CardTitle>
+              <CardTitle className="text-slate-100">{t("contact.send")}</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -97,7 +97,13 @@ export function Contact() {
                   className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700"
                 >
                   <Send className="w-4 h-4 mr-2" />
-                  {t("contact.send")}
+                  <a
+                    target="_blank"
+                    href="mailto:lucas.barbosa12397@gmail.com"
+                    className="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition-colors"
+                  >
+                    {t("contact.send")}
+                  </a>
                 </Button>
               </form>
             </CardContent>
@@ -106,7 +112,7 @@ export function Contact() {
           <div className="space-y-6">
             <Card className="bg-slate-900/50 border-slate-800">
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold text-slate-100 mb-4">Connect With Me</h3>
+                <h3 className="text-xl font-semibold text-slate-100 mb-4">{t("contact.connect")}</h3>
                 <div className="space-y-4">
                   <a
                     target="_blank"
@@ -138,11 +144,8 @@ export function Contact() {
 
             <Card className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 border-blue-500/20">
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold text-slate-100 mb-2">Let's Build Something Amazing</h3>
-                <p className="text-slate-300">
-                  I'm always excited to work on innovative projects and collaborate with talented teams. Whether you
-                  have a project in mind or just want to connect, feel free to reach out!
-                </p>
+                <h3 className="text-xl font-semibold text-slate-100 mb-2">{t("contact.let")}</h3>
+                <p className="text-slate-300">{t("contact.fullDescription")}</p>
               </CardContent>
             </Card>
           </div>
