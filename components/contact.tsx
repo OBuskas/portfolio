@@ -19,12 +19,13 @@ export function Contact() {
     message: "",
   })
 
+  const assunto = `Email enviado à partir do portifólio`
+  const emailLink = `mailto:lucas.barbosa12397@gmail.com?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(`Nome: ${formData.name}\nEmail: ${formData.email}\nMensagem: ${formData.message}`)}`
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Handle form submission here
     console.log("Form submitted:", formData)
-    // Reset form
-    setFormData({ name: "", email: "", message: "" })
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -99,8 +100,8 @@ export function Contact() {
                   <Send className="w-4 h-4 mr-2" />
                   <a
                     target="_blank"
-                    href="mailto:lucas.barbosa12397@gmail.com"
-                    className="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition-colors"
+                    href={emailLink}
+                    className="flex items-center space-x-3 text-slate-950 hover:text-blue-400 transition-colors"
                   >
                     {t("contact.send")}
                   </a>
