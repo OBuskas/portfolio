@@ -14,17 +14,17 @@ export function Projects() {
       name: "Indie Game Pass",
       description: t("projects.indieGamePass.description"),
       image: "/igp-logo.png?height=200&width=300",
-      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui", "Stripe"],
+      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui"],
       github: "https://github.com/OBuskas/indie-game-pass-site",
       demo: "https://site-preview-0.indiegamepass.men/",
     },
     {
-      name: "Task Management App",
-      description: t("projects.taskManagementApp.description"),
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Material-UI"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      name: "Neuro21",
+      description: t("projects.Neuro21.description"),
+      image: "/neuro21.jpg?height=200&width=300",
+      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui"],
+      github: "https://github.com/OBuskas/neuro21",
+      demo: "https://neuro21.vercel.app/",
     },
     {
       name: "Weather Dashboard",
@@ -43,11 +43,11 @@ export function Projects() {
           {t("projects.title")}
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="Flex grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-all duration-300 group"
+              className="Flex bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-all duration-300 group"
             >
               <CardHeader className="p-0">
                 <div className="relative overflow-hidden rounded-t-lg">
@@ -59,7 +59,7 @@ export function Projects() {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent" />
                 </div>
               </CardHeader>
-              <CardContent className="p-6">
+              <CardContent className="Flex p-5 flex-col flex-1">
                 <CardTitle className="text-xl text-slate-100 mb-2">{project.name}</CardTitle>
                 <p className="text-slate-300 text-sm mb-4">{project.description}</p>
 
@@ -71,7 +71,7 @@ export function Projects() {
                   ))}
                 </div>
 
-                <div className="flex space-x-2">
+                <div className="flex space-x-2 items-end justify-end">
                   <Button
                     variant="outline"
                     size="sm"
