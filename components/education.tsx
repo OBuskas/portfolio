@@ -43,22 +43,24 @@ export function Education() {
           {education.map((item, index) => (
             <Card key={index} className="bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-colors">
               <CardHeader>
-                <div className="flex items-start justify-between gap-4">
+                <div className="flex items-start justify-between gap-4 sm:flex-grow">
                   <div className="flex items-start gap-3">
-                    <div className="mt-1">
+                    <div className="mt-1 self-start">
                       {item.type === "degree" ? (
                         <GraduationCap className="w-5 h-5 text-blue-400" />
                       ) : (
                         <Award className="w-5 h-5 text-purple-400" />
                       )}
                     </div>
-                    <div>
+                    <div className="flex flex-col sm:flex-row gap-2 ">
                       <CardTitle className="text-lg text-slate-100">{item.title}</CardTitle>
+                        <div className="flex-shrink-0 sm:self-end">
+                          <Badge variant="outline" className="border-slate-600 text-slate-300 cursor-default whitespace-nowrap">
+                            {item.period}
+                          </Badge>
+                        </div>
                     </div>
                   </div>
-                  <Badge variant="outline" className="border-slate-600 text-slate-300 cursor-default whitespace-nowrap">
-                    {item.period}
-                  </Badge>
                 </div>
                 <div className="p-0 m-0">
                   <p className="text-blue-400 font-semibold">{item.institution}</p>
