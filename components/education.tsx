@@ -52,7 +52,7 @@ export function Education() {
                         <Award className="w-5 h-5 text-purple-400" />
                       )}
                     </div>
-                    <div className="flex flex-col sm:flex-row gap-2 ">
+                    <div className="flex flex-col sm:flex-row gap-2">
                       <CardTitle className="text-lg text-slate-100">{item.title}</CardTitle>
                         <div className="flex-shrink-0 sm:self-end">
                           <Badge variant="outline" className="border-slate-600 text-slate-300 cursor-default whitespace-nowrap">
