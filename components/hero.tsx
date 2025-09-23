@@ -13,7 +13,7 @@ export function Hero() {
       <div className="container mx-auto max-w-4xl text-center">
         <div className="mb-8 flex justify-center">
           <Avatar className="w-32 h-32 border-4 border-blue-500/20">
-            <AvatarImage src="/lucas-barbosa-foto-de-perfil.jpeg" alt="Profile" />
+            <AvatarImage src="/perfil1-1.png" alt="Profile" />
             <AvatarFallback className="bg-gradient-to-br from-blue-500 to-purple-600 text-white text-2xl">
               LB
             </AvatarFallback>
