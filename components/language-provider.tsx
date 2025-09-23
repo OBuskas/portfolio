@@ -66,8 +66,9 @@ const translations = {
     // Projects
     "projects.title": "Featured Projects",
     "projects.indieGamePass.description": "Indie Game Pass is a subscription platform that offers monthly access to exclusive indie games, allowing users to take part in the development process through voting and the IGP community.",
-    "projects.Neuro21.description": "Neuro21 is a Web3 gamified platform that helps neurodivergent individuals build healthier habits through daily goals, rewarding them with tokens that can be exchanged for therapy sessions.",
-    "projects.weatherDashboard.description": "Test English",
+    "projects.neuro21.description": "Neuro21 is a Web3 gamified platform that helps neurodivergent individuals build healthier habits through daily goals, rewarding them with tokens that can be exchanged for therapy sessions.",
+    "projects.siteDeEsperaDinx.description": "The Dinx waiting site is a static page of the child financial education ecosystem project. It serves as a temporary environment until the official launch.",
+    "projects.brazilIT.description": "Community of IT professionals that promotes workshops, book clubs, and online events, focusing on collaborative learning, inclusion, and support for minority groups.",
     "projects.viewCode": "View Code",
     "projects.liveDemo": "Live Demo",
 
@@ -155,8 +156,9 @@ const translations = {
     // Projects
     "projects.title": "Projetos em Destaque",
     "projects.indieGamePass.description": "O Indie Game Pass é uma plataforma de assinatura que dá acesso mensal a jogos indie exclusivos, permitindo aos usuários participar do desenvolvimento por meio de votações e da comunidade.",
-    "projects.Neuro21.description": "Neuro21 é uma plataforma Web3 gamificada que ajuda pessoas neurodivergentes a criarem hábitos mais saudáveis por meio de metas diárias, recompensando-as com tokens que podem ser trocados por sessões de terapia.",
-    "projects.weatherDashboard.description": "Teste português",
+    "projects.neuro21.description": "Neuro21 é uma plataforma Web3 gamificada que ajuda pessoas neurodivergentes a criarem hábitos mais saudáveis por meio de metas diárias, recompensando-as com tokens que podem ser trocados por sessões de terapia.",
+    "projects.siteDeEsperaDinx.description": "O site de espera da Dinx é uma página estática do projeto ecossistema de educação financeira infantil. Ele funciona como ambiente provisório até o lançamento oficial.",
+    "projects.brazilIT.description": "Comunidade de profissionais de TI que promove oficinas, clubes de leitura e eventos online, com foco em aprendizado colaborativo, inclusão e apoio a grupos minoritários.",
     "projects.viewCode": "Ver Código",
     "projects.liveDemo": "Demo ao Vivo",
 
@@ -245,8 +247,9 @@ const translations = {
     // Projects
     "projects.title": "Proyectos Destacados",
     "projects.indieGamePass.description": "Indie Game Pass es una plataforma de suscripción que ofrece acceso mensual a juegos indie exclusivos, permitiendo a los usuarios participar en el desarrollo a través de votaciones y la comunidad de IGP.",
-    "projects.Neuro21.description": "Neuro21 es una plataforma Web3 gamificada que ayuda a personas neurodivergentes a desarrollar hábitos más saludables mediante metas diarias, recompensándolas con tokens que pueden canjear por sesiones de terapia.",
-    "projects.weatherDashboard.description": "Teste español",
+    "projects.neuro21.description": "Neuro21 es una plataforma Web3 gamificada que ayuda a personas neurodivergentes a desarrollar hábitos más saludables mediante metas diarias, recompensándolas con tokens que pueden canjear por sesiones de terapia.",
+    "projects.siteDeEsperaDinx.description": "El sitio de espera de Dinx es una página estática del proyecto de ecosistema de educación financiera infantil. Funciona como un entorno provisional hasta el lanzamiento oficial.",
+    "projects.brazilIT.description": "Comunidad de profesionales de TI que impulsa talleres, clubes de lectura y eventos en línea, con enfoque en aprendizaje colaborativo, inclusión y apoyo a grupos minoritarios.",
     "projects.viewCode": "Ver Código",
     "projects.liveDemo": "Demo en Vivo",
 

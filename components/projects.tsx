@@ -11,6 +11,22 @@ export function Projects() {
 
   const projects = [
     {
+      name: "Site de espera Dinx",
+      description: t("projects.siteDeEsperaDinx.description"),
+      image: "/logoDinx.png?height=200&width=300",
+      technologies: ["React.js", "TypeScript", "Astro", "Tailwind CSS"],
+      github: "https://github.com/Projeto-Fintech/pagina-de-espera",
+      demo: "https://dinxapp.com/",
+    },
+    {
+      name: "Brazil IT Remote",
+      description: t("projects.brazilIT.description"),
+      image: "/brazilItRemote.png?height=200&width=300",
+      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Vite"],
+      github: "https://github.com/BrazilITRemote/brazilitremote-frontend",
+      demo: "https://brazilitremote.com/",
+    },
+    {
       name: "Indie Game Pass",
       description: t("projects.indieGamePass.description"),
       image: "/igp-logo.png?height=200&width=300",
@@ -20,19 +36,11 @@ export function Projects() {
     },
     {
       name: "Neuro21",
-      description: t("projects.Neuro21.description"),
+      description: t("projects.neuro21.description"),
       image: "/neuro21.jpg?height=200&width=300",
       technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui"],
       github: "https://github.com/OBuskas/neuro21",
       demo: "https://neuro21.vercel.app/",
-    },
-    {
-      name: "Weather Dashboard",
-      description: t("projects.weatherDashboard.description"),
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["React", "TypeScript", "Chart.js", "Weather API", "SASS"],
-      github: "https://github.com",
-      demo: "https://demo.com",
     },
   ]
 
