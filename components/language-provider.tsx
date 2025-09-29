@@ -25,7 +25,7 @@ const translations = {
 
     // Hero
     "hero.title": "Front-end Developer",
-    "hero.description": "Brazilian, 27 years old, graduated in Systems Analysis and Development at FIAP, with an analytical, proactive, and communicative profile. \nI work at Transfero Group, in the startup Dinx, where I develop the BackOffice and the subscription website of the financial education platform for children, using Next.js, TypeScript, Tailwind, Shadcn/UI, and Ant Design. \nI started my career in 2023 at PUAH Consultoria, working on customized projects with JavaScript, TypeScript, and React.",
+    "hero.description": "Brazilian, 28 years old, graduated in Systems Analysis and Development at FIAP, with an analytical, proactive, and communicative profile. \nI work at Transfero Group, in the startup Dinx, where I develop the BackOffice and the subscription website of the financial education platform for children, using Next.js, TypeScript, Tailwind, Shadcn/UI, and Ant Design. \nI started my career in 2023 at PUAH Consultoria, working on customized projects with JavaScript, TypeScript, and React.",
     "hero.cta": "Get In Touch",
 
     // Experience
@@ -115,7 +115,7 @@ const translations = {
 
     // Hero
     "hero.title": "Desenvolvedor Front-end",
-    "hero.description": "Brasileiro, 27 anos, formado em Análise e Desenvolvimento de Sistemas pela FIAP, com perfil analítico, proativo e comunicativo. \nTrabalho na Transfero Group, na startup Dinx, onde desenvolvo o BackOffice e o site de contratação da plataforma de educação financeira infantil, utilizando Next.js, TypeScript, Tailwind, Shadcn/UI e Ant Design. \nIniciei minha carreira em 2023 na PUAH Consultoria, participando de projetos personalizados com JavaScript, TypeScript e React.",
+    "hero.description": "Brasileiro, 28 anos, formado em Análise e Desenvolvimento de Sistemas pela FIAP, com perfil analítico, proativo e comunicativo. \nTrabalho na Transfero Group, na startup Dinx, onde desenvolvo o BackOffice e o site de contratação da plataforma de educação financeira infantil, utilizando Next.js, TypeScript, Tailwind, Shadcn/UI e Ant Design. \nIniciei minha carreira em 2023 na PUAH Consultoria, participando de projetos personalizados com JavaScript, TypeScript e React.",
     "hero.cta": "Entre em Contato",
 
     // Experience
@@ -206,7 +206,7 @@ const translations = {
 
     // Hero
     "hero.title": "Desarrollador Front-end",
-    "hero.description": "Brasileño, 27 años, graduado en Análisis y Desarrollo de Sistemas en FIAP, con perfil analítico, proactivo y comunicativo. \nTrabajo en Transfero Group, dentro de la startup Dinx, donde desarrollo el BackOffice y el sitio de suscripción de la plataforma de educación financiera infantil, utilizando Next.js, TypeScript, Tailwind, Shadcn/UI y Ant Design. \nInicié mi carrera en 2023 en PUAH Consultoria, participando en proyectos personalizados con JavaScript, TypeScript y React.",
+    "hero.description": "Brasileño, 28 años, graduado en Análisis y Desarrollo de Sistemas en FIAP, con perfil analítico, proactivo y comunicativo. \nTrabajo en Transfero Group, dentro de la startup Dinx, donde desarrollo el BackOffice y el sitio de suscripción de la plataforma de educación financiera infantil, utilizando Next.js, TypeScript, Tailwind, Shadcn/UI y Ant Design. \nInicié mi carrera en 2023 en PUAH Consultoria, participando en proyectos personalizados con JavaScript, TypeScript y React.",
     "hero.cta": "Contactar",
 
     // Experience
