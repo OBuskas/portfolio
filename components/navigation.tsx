@@ -59,7 +59,7 @@ export function Navigation() {
 
             <DropdownMenu modal={false}>
               <DropdownMenuTrigger asChild>
-                <Button variant="outline" size="sm" className="border-slate-700 bg-slate-800 hover:bg-slate-700">
+                <Button variant="outline" size="sm" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700">
                   <Globe className="w-4 h-4 mr-2" />
                   {language.toUpperCase()}
                 </Button>
