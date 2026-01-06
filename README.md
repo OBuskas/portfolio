@@ -40,8 +40,8 @@ Este portfólio foi desenvolvido com as tecnologias mais modernas do ecossistema
 Siga estes passos para executar o projeto em sua máquina local:
 
 1. **Pré-requisitos**:
-   - Node.js (versão 18 ou superior)
-   - npm, yarn ou pnpm
+   - Node.js 18 ou superior
+   - Yarn (recomendado) — use o gerenciador de pacotes indicado pelo projeto
 
 2. **Clonar o repositório**:
    ```bash
@@ -51,26 +51,14 @@ Siga estes passos para executar o projeto em sua máquina local:
 
 3. **Instalar dependências**:
    ```bash
-   # Usando npm
-   npm install
-
-   # Ou usando yarn
+   # Usando yarn (recomendado)
    yarn
-
-   # Ou usando pnpm
-   pnpm install
    ```
 
 4. **Iniciar o servidor de desenvolvimento**:
    ```bash
-   # Usando npm
-   npm run dev
-
-   # Ou usando yarn
+   # Usando yarn
    yarn dev
-
-   # Ou usando pnpm
-   pnpm dev
    ```
 
 5. **Abrir no navegador**:
@@ -110,4 +98,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-Desenvolvido com ❤️ por Lucas Barbosa - © 2025
+Desenvolvido por Lucas Barbosa - © 2025
