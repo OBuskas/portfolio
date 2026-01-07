@@ -65,6 +65,7 @@ const translations = {
 
     // Projects
     "projects.title": "Featured Projects",
+    "projects.ananaPayroll.description": "Ananá Payroll is a Web3, trustless payroll platform that uses stablecoins to enable transparent, secure, and reliable payments between companies and workers.",
     "projects.indieGamePass.description": "Indie Game Pass is a subscription platform that offers monthly access to exclusive indie games, allowing users to take part in the development process through voting and the IGP community.",
     "projects.neuro21.description": "Neuro21 is a Web3 gamified platform that helps neurodivergent individuals build healthier habits through daily goals, rewarding them with tokens that can be exchanged for therapy sessions.",
     "projects.siteDeEsperaDinx.description": "The Dinx waiting site is a static page of the child financial education ecosystem project. It serves as a temporary environment until the official launch.",
@@ -155,6 +156,7 @@ const translations = {
     
     // Projects
     "projects.title": "Projetos em Destaque",
+    "projects.ananaPayroll.description": "Ananá Payroll é uma plataforma de folha de pagamento Web3 e trustless que usa stablecoins para garantir pagamentos transparentes, seguros e confiáveis entre empresas e trabalhadores.",
     "projects.indieGamePass.description": "O Indie Game Pass é uma plataforma de assinatura que dá acesso mensal a jogos indie exclusivos, permitindo aos usuários participar do desenvolvimento por meio de votações e da comunidade.",
     "projects.neuro21.description": "Neuro21 é uma plataforma Web3 gamificada que ajuda pessoas neurodivergentes a criarem hábitos mais saudáveis por meio de metas diárias, recompensando-as com tokens que podem ser trocados por sessões de terapia.",
     "projects.siteDeEsperaDinx.description": "O site de espera da Dinx é uma página estática do projeto ecossistema de educação financeira infantil. Ele funciona como ambiente provisório até o lançamento oficial.",
@@ -246,6 +248,7 @@ const translations = {
 
     // Projects
     "projects.title": "Proyectos Destacados",
+    "projects.ananaPayroll.description": "Ananá Payroll es una plataforma de nómina Web3 y trustless que utiliza stablecoins para garantizar pagos transparentes, seguros y confiables entre empresas y trabajadores.",
     "projects.indieGamePass.description": "Indie Game Pass es una plataforma de suscripción que ofrece acceso mensual a juegos indie exclusivos, permitiendo a los usuarios participar en el desarrollo a través de votaciones y la comunidad de IGP.",
     "projects.neuro21.description": "Neuro21 es una plataforma Web3 gamificada que ayuda a personas neurodivergentes a desarrollar hábitos más saludables mediante metas diarias, recompensándolas con tokens que pueden canjear por sesiones de terapia.",
     "projects.siteDeEsperaDinx.description": "El sitio de espera de Dinx es una página estática del proyecto de ecosistema de educación financiera infantil. Funciona como un entorno provisional hasta el lanzamiento oficial.",

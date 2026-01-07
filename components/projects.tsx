@@ -17,6 +17,7 @@ export function Projects() {
       technologies: ["React.js", "TypeScript", "Astro", "Tailwind CSS"],
       github: "https://github.com/Projeto-Fintech/pagina-de-espera",
       demo: "https://dinxapp.com/",
+      disabledGithub: true,
     },
     {
       name: "Brazil IT Remote",
@@ -25,6 +26,16 @@ export function Projects() {
       technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Vite"],
       github: "https://github.com/BrazilITRemote/brazilitremote-frontend",
       demo: "https://brazilitremote.com/",
+      disabledGithub: false,
+    },
+    {
+      name: "Anana Payroll",
+      description: t("projects.ananaPayroll.description"),
+      image: "/ananaPayroll.png?height=200&width=300",
+      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS"],
+      github: "https://github.com/OBuskas/ananaPayroll",
+      demo: "https://anana-payroll.vercel.app/",
+      disabledGithub: false,
     },
     {
       name: "Indie Game Pass",
@@ -33,6 +44,7 @@ export function Projects() {
       technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui"],
       github: "https://github.com/OBuskas/indie-game-pass-site",
       demo: "https://site-preview-0.indiegamepass.men/",
+      disabledGithub: true,
     },
     {
       name: "Neuro21",
@@ -41,6 +53,7 @@ export function Projects() {
       technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui"],
       github: "https://github.com/OBuskas/neuro21",
       demo: "https://neuro21.vercel.app/",
+      disabledGithub: true,
     },
   ]
 
@@ -81,6 +94,7 @@ export function Projects() {
 
                 <div className="flex space-x-2 items-end justify-end">
                   <Button
+                    disabled={project.disabledGithub || false}
                     variant="outline"
                     size="sm"
                     className="border-slate-700 bg-slate-800 hover:bg-slate-700 flex-1"
