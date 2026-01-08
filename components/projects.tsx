@@ -11,6 +11,15 @@ export function Projects() {
 
   const projects = [
     {
+      name: "073 Labs",
+      description: t("projects.073Labs.description"),
+      image: "/073Labs_Brandmark.png?height=200&width=300",
+      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui"],
+      github: "https://github.com/Projeto-Fintech/pagina-de-espera",
+      demo: "https://073labs.com/",
+      disabledGithub: true,
+    },
+    {
       name: "Site de espera Dinx",
       description: t("projects.siteDeEsperaDinx.description"),
       image: "/logoDinx.png?height=200&width=300",

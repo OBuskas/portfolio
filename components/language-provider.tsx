@@ -33,8 +33,7 @@ const translations = {
     "experience.job1.title": "Front-End Developer",
     "experience.job1.company": "Transfero Group",
     "experience.job1.period": "May 2024 - Present",
-    "experience.job1.description":
-      "Develop and deploy web applications using JavaScript, TypeScript, and React. I led the backoffice development process using TypeScript, React, and Ant Design, working closely with the CTO and PO. I was also responsible for the product onboarding website, built with React, Next.js, Shadcn, and Tailwind. Additionally, I collaborated with backend teams as needed to ensure product specifications were met.",
+    "experience.job1.description": "Develop and deploy web applications using JavaScript, TypeScript, and React. I led the backoffice development process using TypeScript, React, and Ant Design, working closely with the CTO and PO. I was also responsible for the product onboarding website, built with React, Next.js, Shadcn, and Tailwind. Additionally, I collaborated with backend teams as needed to ensure product specifications were met.",
     "experience.job1.location": "Rio de Janeiro, Rio de Janeiro, Brazil - Remote",
 
     "experience.job2.title": "Front-End Developer",
@@ -65,6 +64,7 @@ const translations = {
 
     // Projects
     "projects.title": "Featured Projects",
+    "projects.073Labs.description": "073 Labs is a software studio focused on building digital products and custom solutions, combining technology, design, and experimentation to create scalable and impactful systems.",
     "projects.ananaPayroll.description": "Ananá Payroll is a Web3, trustless payroll platform that uses stablecoins to enable transparent, secure, and reliable payments between companies and workers.",
     "projects.indieGamePass.description": "Indie Game Pass is a subscription platform that offers monthly access to exclusive indie games, allowing users to take part in the development process through voting and the IGP community.",
     "projects.neuro21.description": "Neuro21 is a Web3 gamified platform that helps neurodivergent individuals build healthier habits through daily goals, rewarding them with tokens that can be exchanged for therapy sessions.",
@@ -156,6 +156,7 @@ const translations = {
     
     // Projects
     "projects.title": "Projetos em Destaque",
+    "projects.073Labs.description": "A 073 Labs é um estúdio de software focado na criação de produtos digitais e soluções sob medida, unindo tecnologia, design e experimentação para desenvolver sistemas escaláveis e de impacto.",
     "projects.ananaPayroll.description": "Ananá Payroll é uma plataforma de folha de pagamento Web3 e trustless que usa stablecoins para garantir pagamentos transparentes, seguros e confiáveis entre empresas e trabalhadores.",
     "projects.indieGamePass.description": "O Indie Game Pass é uma plataforma de assinatura que dá acesso mensal a jogos indie exclusivos, permitindo aos usuários participar do desenvolvimento por meio de votações e da comunidade.",
     "projects.neuro21.description": "Neuro21 é uma plataforma Web3 gamificada que ajuda pessoas neurodivergentes a criarem hábitos mais saudáveis por meio de metas diárias, recompensando-as com tokens que podem ser trocados por sessões de terapia.",
@@ -248,6 +249,7 @@ const translations = {
 
     // Projects
     "projects.title": "Proyectos Destacados",
+    "projects.073Labs.description": "073 Labs es un estudio de software enfocado en crear productos digitales y soluciones a medida, combinando tecnología, diseño y experimentación para desarrollar sistemas escalables y de alto impacto.",
     "projects.ananaPayroll.description": "Ananá Payroll es una plataforma de nómina Web3 y trustless que utiliza stablecoins para garantizar pagos transparentes, seguros y confiables entre empresas y trabajadores.",
     "projects.indieGamePass.description": "Indie Game Pass es una plataforma de suscripción que ofrece acceso mensual a juegos indie exclusivos, permitiendo a los usuarios participar en el desarrollo a través de votaciones y la comunidad de IGP.",
     "projects.neuro21.description": "Neuro21 es una plataforma Web3 gamificada que ayuda a personas neurodivergentes a desarrollar hábitos más saludables mediante metas diarias, recompensándolas con tokens que pueden canjear por sesiones de terapia.",
