@@ -68,8 +68,10 @@ const translations = {
     "projects.ananaPayroll.description": "Ananá Payroll is a Web3, trustless payroll platform that uses stablecoins to enable transparent, secure, and reliable payments between companies and workers.",
     "projects.indieGamePass.description": "Indie Game Pass is a subscription platform that offers monthly access to exclusive indie games, allowing users to take part in the development process through voting and the IGP community.",
     "projects.neuro21.description": "Neuro21 is a Web3 gamified platform that helps neurodivergent individuals build healthier habits through daily goals, rewarding them with tokens that can be exchanged for therapy sessions.",
+    "projects.1010.description": "A web-based puzzle game inspired by 1010! Drag pieces onto a 10x10 board, complete full rows or columns to clear them, and chain combos for extra points. Game ends when no piece fits.",
     "projects.siteDeEsperaDinx.description": "The Dinx waiting site is a static page of the child financial education ecosystem project. It serves as a temporary environment until the official launch.",
     "projects.brazilIT.description": "Community of IT professionals that promotes workshops, book clubs, and online events, focusing on collaborative learning, inclusion, and support for minority groups.",
+    "projects.diningBoard.description": "Business Intelligence dashboard for restaurant chains and franchises. Consolidates operational and financial metrics (KPIs, comparative charts, analytical tables, contextual filters) into a professional interface. Study project with 100% mocked data.",
     "projects.viewCode": "View Code",
     "projects.liveDemo": "Live Demo",
 
@@ -160,8 +162,10 @@ const translations = {
     "projects.ananaPayroll.description": "Ananá Payroll é uma plataforma de folha de pagamento Web3 e trustless que usa stablecoins para garantir pagamentos transparentes, seguros e confiáveis entre empresas e trabalhadores.",
     "projects.indieGamePass.description": "O Indie Game Pass é uma plataforma de assinatura que dá acesso mensal a jogos indie exclusivos, permitindo aos usuários participar do desenvolvimento por meio de votações e da comunidade.",
     "projects.neuro21.description": "Neuro21 é uma plataforma Web3 gamificada que ajuda pessoas neurodivergentes a criarem hábitos mais saudáveis por meio de metas diárias, recompensando-as com tokens que podem ser trocados por sessões de terapia.",
+    "projects.1010.description": "Jogo de quebra-cabeça inspirado no 1010!. Arraste peças para um tabuleiro 10x10, complete linhas ou colunas inteiras para limpá-las e faça combos para pontos extras. O jogo termina quando nenhuma peça cabe mais.",
     "projects.siteDeEsperaDinx.description": "O site de espera da Dinx é uma página estática do projeto ecossistema de educação financeira infantil. Ele funciona como ambiente provisório até o lançamento oficial.",
     "projects.brazilIT.description": "Comunidade de profissionais de TI que promove oficinas, clubes de leitura e eventos online, com foco em aprendizado colaborativo, inclusão e apoio a grupos minoritários.",
+    "projects.diningBoard.description": "Dashboard de Business Intelligence para redes de restaurantes e franquias. Consolida métricas operacionais e financeiras (KPIs, gráficos comparativos, tabelas analíticas, filtros contextuais) em uma interface profissional. Projeto de estudo com dados 100% mockados.",
     "projects.viewCode": "Ver Código",
     "projects.liveDemo": "Demo ao Vivo",
 
@@ -253,8 +257,10 @@ const translations = {
     "projects.ananaPayroll.description": "Ananá Payroll es una plataforma de nómina Web3 y trustless que utiliza stablecoins para garantizar pagos transparentes, seguros y confiables entre empresas y trabajadores.",
     "projects.indieGamePass.description": "Indie Game Pass es una plataforma de suscripción que ofrece acceso mensual a juegos indie exclusivos, permitiendo a los usuarios participar en el desarrollo a través de votaciones y la comunidad de IGP.",
     "projects.neuro21.description": "Neuro21 es una plataforma Web3 gamificada que ayuda a personas neurodivergentes a desarrollar hábitos más saludables mediante metas diarias, recompensándolas con tokens que pueden canjear por sesiones de terapia.",
+    "projects.1010.description": "Juego de puzzles inspirado en el 1010!. Arrastra piezas a un tablero 10x10, completa filas o columnas enteras para limpiarlas y encadena combos para puntos extra. El juego termina cuando ninguna pieza encaja.",
     "projects.siteDeEsperaDinx.description": "El sitio de espera de Dinx es una página estática del proyecto de ecosistema de educación financiera infantil. Funciona como un entorno provisional hasta el lanzamiento oficial.",
     "projects.brazilIT.description": "Comunidad de profesionales de TI que impulsa talleres, clubes de lectura y eventos en línea, con enfoque en aprendizaje colaborativo, inclusión y apoyo a grupos minoritarios.",
+    "projects.diningBoard.description": "Dashboard de Business Intelligence para cadenas de restaurantes y franquicias. Consolida métricas operativas y financieras (KPIs, gráficos comparativos, tablas analíticas, filtros contextuales) en una interfaz profesional. Proyecto de estudio con datos 100% simulados.",
     "projects.viewCode": "Ver Código",
     "projects.liveDemo": "Demo en Vivo",
 

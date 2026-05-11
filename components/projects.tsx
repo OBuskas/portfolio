@@ -20,13 +20,22 @@ export function Projects() {
       disabledGithub: true,
     },
     {
-      name: "Site de espera Dinx",
-      description: t("projects.siteDeEsperaDinx.description"),
-      image: "/logoDinx.png?height=200&width=300",
-      technologies: ["React.js", "TypeScript", "Astro", "Tailwind CSS"],
-      github: "https://github.com/Projeto-Fintech/pagina-de-espera",
-      demo: "https://dinxapp.com/",
-      disabledGithub: true,
+      name: "Dining Board",
+      description: t("projects.diningBoard.description"),
+      image: "/dining_board.jpg?height=200&width=300",
+      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui", "Recharts", "TanStack Table", "Zustand", "Zod"],
+      github: "https://github.com/OBuskas/dining-board",
+      demo: "https://dining-board.vercel.app/",
+      disabledGithub: false,
+    },
+    {
+      name: "1010!",
+      description: t("projects.1010.description"),
+      image: "/1010.jpg?height=200&width=300",
+      technologies: ["React.js", "TypeScript", "PixiJS", "Zustand", "Vite"],
+      github: "https://github.com/OBuskas/1010-like",
+      demo: "https://1010-like.vercel.app/",
+      disabledGithub: false,
     },
     {
       name: "Brazil IT Remote",
@@ -55,15 +64,6 @@ export function Projects() {
       demo: "https://site-preview-0.indiegamepass.men/",
       disabledGithub: true,
     },
-    {
-      name: "Neuro21",
-      description: t("projects.neuro21.description"),
-      image: "/neuro21.jpg?height=200&width=300",
-      technologies: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn/ui"],
-      github: "https://github.com/OBuskas/neuro21",
-      demo: "https://neuro21.vercel.app/",
-      disabledGithub: true,
-    },
   ]
 
   return (
@@ -73,11 +73,11 @@ export function Projects() {
           {t("projects.title")}
         </h2>
 
-        <div className="Flex grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:auto-rows-fr justify-items-center">
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="Flex bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-all duration-300 group"
+              className="flex flex-col w-full h-full bg-slate-900/50 border-slate-800 hover:border-slate-700 transition-all duration-300 group"
             >
               <CardHeader className="p-0">
                 <div className="relative overflow-hidden rounded-t-lg">
@@ -89,9 +89,11 @@ export function Projects() {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent" />
                 </div>
               </CardHeader>
-              <CardContent className="Flex p-5 flex-col flex-1">
+              <CardContent className="flex flex-col flex-1 p-5">
                 <CardTitle className="text-xl text-slate-100 mb-2">{project.name}</CardTitle>
-                <p className="text-slate-300 text-sm mb-4">{project.description}</p>
+                <div className="max-h-[120px] overflow-y-auto mb-4">
+                  <p className="text-slate-300 text-sm">{project.description}</p>
+                </div>
 
                 <div className="flex flex-wrap gap-1 mb-4">
                   {project.technologies.map((tech) => (
@@ -101,12 +103,12 @@ export function Projects() {
                   ))}
                 </div>
 
-                <div className="flex space-x-2 items-end justify-end">
+                <div className="flex flex-col md:flex-row gap-2 items-stretch justify-end mt-auto">
                   <Button
                     disabled={project.disabledGithub || false}
                     variant="outline"
                     size="sm"
-                    className="border-slate-700 bg-slate-800 hover:bg-slate-700 flex-1"
+                    className="border-slate-700 bg-slate-800 hover:bg-slate-700 flex-1 h-14"
                     onClick={() => window.open(project.github, '_blank', 'noopener,noreferrer')}
                   >
                     <Github className="w-4 h-4 mr-2" />
@@ -115,7 +117,7 @@ export function Projects() {
                   <Button
                     variant="outline"
                     size="sm"
-                    className="border-slate-700 bg-slate-800 hover:bg-slate-700 flex-1"
+                    className="border-slate-700 bg-slate-800 hover:bg-slate-700 flex-1 h-14"
                     onClick={() => window.open(project.demo, '_blank', 'noopener,noreferrer')}
                   >
                     <ExternalLink className="w-4 h-4 mr-2" />
