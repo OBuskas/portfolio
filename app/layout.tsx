@@ -1,11 +1,13 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import { siteUrl } from "@/lib/site"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Lucas Barbosa - Front-end Developer Portfolio",
   description:
     "Passionate front-end developer specializing in React, TypeScript, and modern web technologies. View my projects, experience, and get in touch.",
@@ -15,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://lucasbarbosa.dev",
+    url: siteUrl,
     title: "Lucas Barbosa - Front-end Developer Portfolio",
     description: "Passionate front-end developer specializing in React, TypeScript, and modern web technologies.",
     siteName: "Lucas Barbosa Portfolio",
