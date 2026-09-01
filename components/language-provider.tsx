@@ -25,7 +25,7 @@ const translations = {
 
     // Hero
     "hero.title": "Front-end Developer",
-    "hero.description": "Brazilian front-end developer, 28 years old, graduated in Systems Analysis and Development at FIAP, with an analytical, proactive, and communicative profile. \nAt Dinx, a Transfero Group startup, I am responsible for the company's entire web front-end and also work on the mobile front-end, across six products - from the Back Office and the subscription website to the parents' app - using React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI, and Ant Design. \nI started my career in 2023 at PUAH Consultoria, turning business and design requirements into accessible, responsive interfaces. Day to day, I integrate REST APIs, follow Spec-Driven Development practices, and cover critical flows with tests.",
+    "hero.description": "Brazilian front-end developer, 28 years old, graduated in Systems Analysis and Development at FIAP, with an analytical, proactive, and communicative profile. \nAt Dinx, a Transfero Group startup, I am responsible for the company's entire web front-end and also work on the mobile front-end, across six products (from the Back Office and the subscription website to the parents' app) using React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI, and Ant Design. \nI started my career in 2023 at PUAH Consultoria, turning business and design requirements into accessible, responsive interfaces. Day to day, I integrate REST APIs, follow Spec-Driven Development practices, and cover critical flows with tests.",
     "hero.cta": "Get In Touch",
 
     // Experience
@@ -131,7 +131,7 @@ const translations = {
 
     // Hero
     "hero.title": "Desenvolvedor Front-end",
-    "hero.description": "Desenvolvedor front-end brasileiro, 28 anos, formado em Análise e Desenvolvimento de Sistemas pela FIAP, com perfil analítico, proativo e comunicativo. \nNa Dinx, startup do Transfero Group, sou responsável por toda a frente web da empresa e atuo também na frente mobile, em seis produtos - do Back Office ao site de assinatura e ao app dos pais - com React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI e Ant Design. \nIniciei minha carreira em 2023 na PUAH Consultoria, traduzindo requisitos de negócio e design em interfaces acessíveis e responsivas. No dia a dia, integro APIs REST, sigo práticas de Spec-Driven Development e cubro fluxos críticos com testes.",
+    "hero.description": "Desenvolvedor front-end brasileiro, 28 anos, formado em Análise e Desenvolvimento de Sistemas pela FIAP, com perfil analítico, proativo e comunicativo. \nNa Dinx, startup do Transfero Group, sou responsável por toda a frente web da empresa e atuo também na frente mobile, em seis produtos (do Back Office ao site de assinatura e ao app dos pais) com React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI e Ant Design. \nIniciei minha carreira em 2023 na PUAH Consultoria, traduzindo requisitos de negócio e design em interfaces acessíveis e responsivas. No dia a dia, integro APIs REST, sigo práticas de Spec-Driven Development e cubro fluxos críticos com testes.",
     "hero.cta": "Entre em Contato",
 
     // Experience
@@ -238,7 +238,7 @@ const translations = {
 
     // Hero
     "hero.title": "Desarrollador Front-end",
-    "hero.description": "Desarrollador front-end brasileño, 28 años, graduado en Análisis y Desarrollo de Sistemas en FIAP, con perfil analítico, proactivo y comunicativo. \nEn Dinx, startup del Transfero Group, soy responsable de todo el front-end web de la empresa y también participo en el front-end mobile, en seis productos - del Back Office al sitio de suscripción y a la app de los padres - con React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI y Ant Design. \nInicié mi carrera en 2023 en PUAH Consultoria, traduciendo requisitos de negocio y diseño en interfaces accesibles y responsivas. En el día a día integro APIs REST, sigo prácticas de Spec-Driven Development y cubro flujos críticos con pruebas.",
+    "hero.description": "Desarrollador front-end brasileño, 28 años, graduado en Análisis y Desarrollo de Sistemas en FIAP, con perfil analítico, proactivo y comunicativo. \nEn Dinx, startup del Transfero Group, soy responsable de todo el front-end web de la empresa y también participo en el front-end mobile, en seis productos (del Back Office al sitio de suscripción y a la app de los padres) con React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI y Ant Design. \nInicié mi carrera en 2023 en PUAH Consultoria, traduciendo requisitos de negocio y diseño en interfaces accesibles y responsivas. En el día a día integro APIs REST, sigo prácticas de Spec-Driven Development y cubro flujos críticos con pruebas.",
     "hero.cta": "Contactar",
 
     // Experience

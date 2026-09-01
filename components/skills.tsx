@@ -9,21 +9,37 @@ export function Skills() {
   const { t } = useLanguage()
 
   const hardSkills = [
-    "JavaScript", 
-    "TypeScript", 
-    "React.js", 
-    "Next.js", 
-    "Tailwind", 
-    "Shadcn/ui", 
-    "Ant Design", 
-    "npm", 
-    "Yarn", 
-    "ESLint", 
-    "Vite", 
-    "Vercel", 
-    "Git", 
-    "Github", 
-    "Node.js"
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "React Native",
+    "Node.js",
+    "Next.js",
+    "Astro",
+    "Expo",
+    "Tailwind",
+    "NativeWind",
+    "Shadcn/ui",
+    "Ant Design",
+    "Zustand",
+    "React Query",
+    "React Hook Form",
+    "Zod",
+    "Axios",
+    "Konva",
+    "HTML",
+    "CSS",
+    "npm",
+    "Yarn",
+    "pnpm",
+    "ESLint",
+    "Vite",
+    "Vercel",
+    "Git",
+    "Github",
+    "WordPress",
+    "Elementor",
+    "PHP"
   ]
 
   const languageSkills = [
@@ -56,7 +72,7 @@ export function Skills() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 max-h-64 overflow-y-auto pr-2">
                 {hardSkills.map((skill) => (
                   <Badge key={skill} className="bg-blue-500/20 text-blue-300 hover:bg-blue-500/30 border-blue-500/30 cursor-default">
                     {skill}
