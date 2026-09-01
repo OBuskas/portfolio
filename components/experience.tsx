@@ -5,17 +5,48 @@ import { Badge } from "@/components/ui/badge"
 import { Calendar, MapPin } from "lucide-react"
 import { useLanguage } from "./language-provider"
 
+interface ExperienceItem {
+  title: string
+  company: string
+  period: string
+  location: string
+  description: string
+  technologies: string[]
+  highlights?: string[]
+  footer?: string
+}
+
 export function Experience() {
   const { t } = useLanguage()
 
-  const experiences = [
+  const experiences: ExperienceItem[] = [
     {
       title: t("experience.job1.title"),
       company: t("experience.job1.company"),
       period: t("experience.job1.period"),
       location: t("experience.job1.location"),
       description: t("experience.job1.description"),
-      technologies: ["JavaScript", "TypeScript", "React", "Ant Design", "Next.js", "Shadcn/ui", "Tailwind"],
+      highlights: [1, 2, 3, 4, 5, 6].map((n) => t(`experience.job1.highlight${n}`)),
+      footer: t("experience.job1.footer"),
+      technologies: [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Astro",
+        "React Native",
+        "Expo",
+        "Ant Design",
+        "Shadcn/ui",
+        "Tailwind",
+        "NativeWind",
+        "Zustand",
+        "Zod",
+        "React Hook Form",
+        "React Query",
+        "Konva",
+        "Axios",
+        "WordPress",
+      ],
     },
     {
       title: t("experience.job2.title"),
@@ -65,6 +96,17 @@ export function Experience() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-300 mb-4">{exp.description}</p>
+                {exp.highlights && (
+                  <ul className="space-y-2 mb-4">
+                    {exp.highlights.map((highlight) => (
+                      <li key={highlight} className="flex text-slate-300">
+                        <span className="text-blue-400 mr-2 select-none">•</span>
+                        <span>{highlight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {exp.footer && <p className="text-slate-300 mb-4">{exp.footer}</p>}
                 <div className="flex flex-wrap gap-2">
                   {exp.technologies.map((tech) => (
                     <Badge key={tech} variant="secondary" className="bg-slate-800 text-slate-300 hover:bg-slate-700 cursor-default">

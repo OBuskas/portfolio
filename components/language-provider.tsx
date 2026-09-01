@@ -25,7 +25,7 @@ const translations = {
 
     // Hero
     "hero.title": "Front-end Developer",
-    "hero.description": "Brazilian, 28 years old, graduated in Systems Analysis and Development at FIAP, with an analytical, proactive, and communicative profile. \nI work at Transfero Group, in the startup Dinx, where I develop the BackOffice and the subscription website of the financial education platform for children, using Next.js, TypeScript, Tailwind, Shadcn/UI, and Ant Design. \nI started my career in 2023 at PUAH Consultoria, working on customized projects with JavaScript, TypeScript, and React.",
+    "hero.description": "Brazilian front-end developer, 28 years old, graduated in Systems Analysis and Development at FIAP, with an analytical, proactive, and communicative profile. \nAt Dinx, a Transfero Group startup, I am responsible for the company's entire web front-end and also work on the mobile front-end, across six products - from the Back Office and the subscription website to the parents' app - using React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI, and Ant Design. \nI started my career in 2023 at PUAH Consultoria, turning business and design requirements into accessible, responsive interfaces. Day to day, I integrate REST APIs, follow Spec-Driven Development practices, and cover critical flows with tests.",
     "hero.cta": "Get In Touch",
 
     // Experience
@@ -33,7 +33,20 @@ const translations = {
     "experience.job1.title": "Front-End Developer",
     "experience.job1.company": "Transfero Group",
     "experience.job1.period": "May 2024 - Present",
-    "experience.job1.description": "Develop and deploy web applications using JavaScript, TypeScript, and React. I led the backoffice development process using TypeScript, React, and Ant Design, working closely with the CTO and PO. I was also responsible for the product onboarding website, built with React, Next.js, Shadcn, and Tailwind. Additionally, I collaborated with backend teams as needed to ensure product specifications were met.",
+    "experience.job1.description":
+      "Responsible for the company's entire web front-end and also working on the mobile front-end, across 6 projects:",
+    "experience.job1.highlight1":
+      "Back Office: I lead the development in React, TypeScript, Ant Design, Axios, and Konva, together with the CTO and the PO.",
+    "experience.job1.highlight2":
+      "Subscription website: I built the platform where the user purchases the product, in React, Next.js, Shadcn/UI, Tailwind, Zustand, Zod, and React Hook Form.",
+    "experience.job1.highlight3":
+      "Form website: I migrated it from WordPress/Elementor to React, Astro, and Zod, keeping the previous version running during the transition.",
+    "experience.job1.highlight4":
+      "Parents' mobile app: I develop features and fixes in React Native, Expo, TypeScript, NativeWind, and React Query.",
+    "experience.job1.highlight5": "Institutional website: I handle the maintenance in WordPress/Elementor.",
+    "experience.job1.highlight6": "Emails: development of transactional and marketing emails in pure HTML and CSS.",
+    "experience.job1.footer":
+      "I collaborate with the back-end teams as needed to ensure the integration and the specifics of each product.",
     "experience.job1.location": "Rio de Janeiro, Rio de Janeiro, Brazil - Remote",
 
     "experience.job2.title": "Front-End Developer",
@@ -118,7 +131,7 @@ const translations = {
 
     // Hero
     "hero.title": "Desenvolvedor Front-end",
-    "hero.description": "Brasileiro, 28 anos, formado em Análise e Desenvolvimento de Sistemas pela FIAP, com perfil analítico, proativo e comunicativo. \nTrabalho na Transfero Group, na startup Dinx, onde desenvolvo o BackOffice e o site de contratação da plataforma de educação financeira infantil, utilizando Next.js, TypeScript, Tailwind, Shadcn/UI e Ant Design. \nIniciei minha carreira em 2023 na PUAH Consultoria, participando de projetos personalizados com JavaScript, TypeScript e React.",
+    "hero.description": "Desenvolvedor front-end brasileiro, 28 anos, formado em Análise e Desenvolvimento de Sistemas pela FIAP, com perfil analítico, proativo e comunicativo. \nNa Dinx, startup do Transfero Group, sou responsável por toda a frente web da empresa e atuo também na frente mobile, em seis produtos - do Back Office ao site de assinatura e ao app dos pais - com React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI e Ant Design. \nIniciei minha carreira em 2023 na PUAH Consultoria, traduzindo requisitos de negócio e design em interfaces acessíveis e responsivas. No dia a dia, integro APIs REST, sigo práticas de Spec-Driven Development e cubro fluxos críticos com testes.",
     "hero.cta": "Entre em Contato",
 
     // Experience
@@ -127,7 +140,19 @@ const translations = {
     "experience.job1.company": "Transfero Group",
     "experience.job1.period": "05/2024 - atualmente",
     "experience.job1.description":
-      "Desenvolver e implantar aplicações web com JavaScript, TypeScript e React. Liderei o processo de desenvolvimento do backoffice utilizando TypeScript, React e Ant Design, em conjunto com CTO e PO; Fui responsável também pelo site de contratação do produto, feito com React, Next.js, Shadcn e Tailwind. Além de colaborar conforme necessário com as equipes de back-end para garantir as especificidades dos produtos.",
+      "Responsável por toda a frente web da empresa e atuando também na frente mobile, em 6 projetos:",
+    "experience.job1.highlight1":
+      "Back Office: lidero o desenvolvimento em React, TypeScript, Ant Design, Axios e Konva, em conjunto com CTO e PO.",
+    "experience.job1.highlight2":
+      "Site de assinatura: desenvolvi a plataforma onde o usuário contrata o produto, em React, Next.js, Shadcn/UI, Tailwind, Zustand, Zod e React Hook Form.",
+    "experience.job1.highlight3":
+      "Site de formulário: migrei de WordPress/Elementor para React, Astro e Zod, mantendo a versão anterior durante a transição.",
+    "experience.job1.highlight4":
+      "App mobile dos pais: desenvolvo features e correções em React Native, Expo, TypeScript, NativeWind e React Query.",
+    "experience.job1.highlight5": "Site institucional: realizo a manutenção em WordPress/Elementor.",
+    "experience.job1.highlight6": "E-mails: desenvolvimento de e-mails transacionais e de marketing em HTML e CSS puro.",
+    "experience.job1.footer":
+      "Colaboro com as equipes de back-end conforme necessário para garantir a integração e as especificidades de cada produto.",
     "experience.job1.location": "Rio de Janeiro, Rio de Janeiro, Brasil - Remoto",
 
     "experience.job2.title": "Desenvolvedor Frontend",
@@ -213,7 +238,7 @@ const translations = {
 
     // Hero
     "hero.title": "Desarrollador Front-end",
-    "hero.description": "Brasileño, 28 años, graduado en Análisis y Desarrollo de Sistemas en FIAP, con perfil analítico, proactivo y comunicativo. \nTrabajo en Transfero Group, dentro de la startup Dinx, donde desarrollo el BackOffice y el sitio de suscripción de la plataforma de educación financiera infantil, utilizando Next.js, TypeScript, Tailwind, Shadcn/UI y Ant Design. \nInicié mi carrera en 2023 en PUAH Consultoria, participando en proyectos personalizados con JavaScript, TypeScript y React.",
+    "hero.description": "Desarrollador front-end brasileño, 28 años, graduado en Análisis y Desarrollo de Sistemas en FIAP, con perfil analítico, proactivo y comunicativo. \nEn Dinx, startup del Transfero Group, soy responsable de todo el front-end web de la empresa y también participo en el front-end mobile, en seis productos - del Back Office al sitio de suscripción y a la app de los padres - con React, Next.js, TypeScript, React Native, Tailwind, Shadcn/UI y Ant Design. \nInicié mi carrera en 2023 en PUAH Consultoria, traduciendo requisitos de negocio y diseño en interfaces accesibles y responsivas. En el día a día integro APIs REST, sigo prácticas de Spec-Driven Development y cubro flujos críticos con pruebas.",
     "hero.cta": "Contactar",
 
     // Experience
@@ -222,7 +247,19 @@ const translations = {
     "experience.job1.company": "Transfero Group",
     "experience.job1.period": "May 2024 - Presente",
     "experience.job1.description":
-      "Desarrollar e implementar aplicaciones web con JavaScript, TypeScript y React. Lideré el proceso de desarrollo del backoffice utilizando TypeScript, React y Ant Design, en colaboración con el CTO y el PO. También fui responsable del sitio web de contratación del producto, desarrollado con React, Next.js, Shadcn y Tailwind. Además, colaboré con los equipos de backend según fuera necesario para garantizar las especificaciones del producto.",
+      "Responsable de todo el front-end web de la empresa y participando también en el front-end mobile, en 6 proyectos:",
+    "experience.job1.highlight1":
+      "Back Office: lidero el desarrollo en React, TypeScript, Ant Design, Axios y Konva, junto con el CTO y el PO.",
+    "experience.job1.highlight2":
+      "Sitio de suscripción: desarrollé la plataforma donde el usuario contrata el producto, en React, Next.js, Shadcn/UI, Tailwind, Zustand, Zod y React Hook Form.",
+    "experience.job1.highlight3":
+      "Sitio de formulario: lo migré de WordPress/Elementor a React, Astro y Zod, manteniendo la versión anterior durante la transición.",
+    "experience.job1.highlight4":
+      "App mobile de los padres: desarrollo features y correcciones en React Native, Expo, TypeScript, NativeWind y React Query.",
+    "experience.job1.highlight5": "Sitio institucional: realizo el mantenimiento en WordPress/Elementor.",
+    "experience.job1.highlight6": "E-mails: desarrollo de e-mails transaccionales y de marketing en HTML y CSS puro.",
+    "experience.job1.footer":
+      "Colaboro con los equipos de back-end según sea necesario para garantizar la integración y las especificidades de cada producto.",
     "experience.job1.location": "Rio de Janeiro, Rio de Janeiro, Brasil - Remoto",
 
     "experience.job2.title": "Desarrollador Frontend",
